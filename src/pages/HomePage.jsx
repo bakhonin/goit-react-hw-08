@@ -8,8 +8,9 @@ const Home = () => {
       <div>
         <DocumentTitle>Home</DocumentTitle>
         <h2 className={css.pageTitle}>Home page</h2>
-        <img src={catMobile} alt="cat and phone" width={300} />
+        <img className={css.imgCatMobile} src={catMobile} alt="cat and phone" width={300} />
       </div>
+      <h2 className={css.pageTitle}>Welcome to the phone book!</h2>
     </div>
   );
 };
