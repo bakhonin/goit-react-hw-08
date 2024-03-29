@@ -1,0 +1,42 @@
+.linkLogin {
+  display: inline-block;
+  text-decoration: none;
+  padding: 4px 8px;
+  font-weight: 800;
+  color: #4d5ae5;
+  background-color: white;
+  border-radius: 5px;
+
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.linkRegister {
+  display: inline-block;
+  margin-right: 8px;
+  text-decoration: none;
+  padding: 4px 8px;
+  font-weight: 800;
+  color: #4d5ae5;
+  background-color: white;
+  border-radius: 5px;
+
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.linkRegister:hover,
+.linkRegister:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  border-radius: 5px;
+}
+
+.linkLogin:hover,
+.linkLogin:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+  border-radius: 5px;
+}

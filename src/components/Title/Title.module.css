@@ -1,0 +1,41 @@
+.title {
+  display: flex;
+}
+
+.titleText {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 5px;
+  gap: 10px;
+  font-weight: 800;
+  color: #4d5ae5;
+  background-color: white;
+  border-radius: 5px;
+
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.titleText:hover,
+.titleText:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.title svg {
+  fill: #4d5ae5;
+  background-color: white;
+
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.title:hover svg,
+.title:focus-within svg {
+  fill: #ffffff;
+  background-color: #404bbf;
+}
