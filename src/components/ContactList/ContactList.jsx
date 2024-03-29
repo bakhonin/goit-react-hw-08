@@ -1,4 +1,4 @@
-import { deleteContact, fetchContacts } from '../../redux/contact/contactsOps';
+import { deleteContact, fetchContacts } from '../../redux/contact/operations.js';
 import Contact from '../Contact/Contact';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectContacts } from '../../redux/contact/contactsSlice';
