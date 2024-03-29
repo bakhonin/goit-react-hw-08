@@ -6,7 +6,7 @@ import ContactList from '../components/ContactList/ContactList';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchContacts } from '../redux/contacts/operations.js';
 import { useEffect } from 'react';
-import { selectContactsLoading, selectContactsError } from '../redux/contact/selector';
+import { selectContactsLoading, selectContactsError } from '../redux/contacts/selector';
 import { Toaster } from 'react-hot-toast';
 import css from './Page.module.css';
 
