@@ -10,8 +10,8 @@ import {
   persistReducer,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import { contactsReducer } from './contact/contactsSlice';
-import filtersSlice from './contact/filtersSlice';
+import { contactsReducer } from './contacts/contactsSlice';
+import filtersSlice from './contacts/filtersSlice';
 import { authReducer } from './auth/slice';
 
 const authPersistConfig = {

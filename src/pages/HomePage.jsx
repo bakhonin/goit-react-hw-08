@@ -1,4 +1,3 @@
-//HomePage
 import css from './Page.module.css';
 import DocumentTitle from '../components/DocumentTitle';
 import catMobile from '../images/cat-mobile.png';
@@ -13,6 +12,6 @@ const Home = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Home;

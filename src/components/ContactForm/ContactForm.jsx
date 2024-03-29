@@ -1,7 +1,7 @@
 import { IMaskInput } from 'react-imask';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import { useDispatch } from 'react-redux';
-import { addContact } from '../../redux/contact/operations.js';
+import { addContact } from '../../redux/contacts/operations.js';
 import * as Yup from 'yup';
 import { nanoid } from 'nanoid';
 import toast from 'react-hot-toast';

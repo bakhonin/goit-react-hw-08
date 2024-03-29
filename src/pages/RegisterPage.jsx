@@ -1,4 +1,3 @@
-//RegiterPage
 import DocumentTitle from '../components/DocumentTitle';
 import RegisterForm from '../components/RegisterForm/RegisterForm';
 import css from './Page.module.css';

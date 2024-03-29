@@ -1,5 +1,3 @@
-//LoginPage
-
 import css from './Page.module.css';
 import DocumentTitle from '../components/DocumentTitle';
 import LoginForm from '../components/LoginForm/LoginForm';
